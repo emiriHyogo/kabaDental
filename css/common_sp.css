@@ -1,0 +1,300 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media screen and (max-width: 500px) {
+	h1 {
+		font-size: 16px;
+	}
+	
+	h2,h3 {
+		font-size: 24px;
+	}
+
+
+	.text {
+		font-size: 16px;
+		margin-bottom: 50px;
+		text-align: left;
+	}
+	
+	.inner {
+		width: 100%;
+		padding: 20px 20px;
+		margin-bottom: 80px;
+	}
+	
+	.wrapper {
+		width: 90%;
+		margin-bottom: 80px;
+	}
+	
+	#nav {
+		display: none;
+	}
+	
+	.site-title img {
+		width: 50px;
+		height: 50px;
+	}
+	
+	.site-title {
+		left: 10px;
+		top: 20px;
+		width: 100px;
+		line-height: 0px;
+		background-color: transparent;
+	}
+	
+	.site-title img {
+		margin-bottom: 0px;
+	}
+	
+	.site-title p {
+		letter-spacing: 0.2rem;
+		color: #F2F2F2;
+		line-height: 25px;
+		text-align: center;
+		font-size: 16px;
+	}
+	
+	.cv {
+		right: 0;
+  		left: 0;
+		margin: 0 auto;
+		bottom: 50px;
+		width: 90%;
+		height: 100px;
+		background-color: #BF7256;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		text-align: center;
+		border-radius: 10px;
+	}
+	
+	#header h2 {
+		right: 20px;
+		top: 30%;
+		text-align: right;
+		color: #F2F2F2;
+	}
+	
+	/* メイン */
+
+	.sec-title {
+		margin-bottom: 60px;
+
+	}
+
+	.sec-title h2 {
+		padding-bottom: 5px;
+	}
+
+	.sec-title p {
+		padding-top: 5px;
+		font-size: 14px;
+	}
+	/* 特長 */
+
+	.feature .contents {
+		flex-direction: column;
+		
+	}
+
+	.feature .contents .item {
+		margin: 0 auto;
+		margin-bottom: 50px;
+	}
+	
+	/* 特長おわり */
+
+	/* 料金 */
+
+	.price .contents {
+		flex-direction: column;
+	}
+
+	.price .contents .item {
+		margin: 0 auto;
+		margin-bottom: 15px;
+	}
+	
+	/* 料金おわり */
+
+	/* よくある質問 */
+
+	.question .item span {
+		font-size: 36px;
+		margin: 0 10px 0 10px;
+	}
+
+	.question .item dt,
+	.question .item dd {
+		width: 100%;
+	}
+	
+	.question .item dt {
+		height: 60px;
+	}
+	
+	.question .item dd:last-child {
+		margin-bottom: 0;
+	}
+
+	.question .item .q {
+		border-radius: 10px 10px 0 0;
+		font-size: 16px;
+	}
+
+	.question .item .a {
+		border-radius: 0 0 10px 10px;
+		font-size: 12px;
+	}
+	/* よくある質問おわり */
+	
+	/* お問い合わせ */
+
+	.contact .text {
+		margin-bottom: 60px;
+	}
+
+	.contact form input,
+	.contact form #textarea {
+		width: 100%;
+		height: 30px;
+		border-radius: 5px;
+		margin-bottom: 20px;
+	}
+	
+	.contact form #textarea {
+		height: 120px;
+	}
+
+	.contact #submit {
+		width: 100%;
+		height: 50px;
+		font-size: 14px;
+	}
+
+	/* お問い合わせおわり */
+	
+	/* 当院について */
+
+	.info .left {
+		width: 100%;
+		margin-bottom: 60px;
+	}
+
+	.info .left .company {
+		margin-bottom: 30px;
+		display: flex;
+		justify-content: center;
+	}
+	
+	.info .left .company .menu {
+		font-size: 14px;
+	}
+	
+	.info .left .company .logo {
+		width: 50px;
+		height: 50px;
+	}
+
+	.info .left .company-name {
+		font-size: 16px;
+	}
+
+	.info .date {
+		line-height: 2rem;
+		margin-bottom: 10px;
+		font-size: 14px;
+	}
+
+	.info .date .attn {
+		font-size: 8px;
+		margin-bottom: 15px;
+	}
+
+	.info .left .car {
+		margin-bottom: 15px;
+		font-size: 10px;
+	}
+	
+	.info .left .car p {
+		text-align: center;
+	}
+	
+	.info .left .car .car-int {
+		font-size: 16px;
+		
+	}
+
+	.info .left .car .car-int span {
+		font-size: 18px;
+		font-weight: bold;
+	}
+
+
+	.info .flex {
+		flex-direction: column;
+	}
+	
+	.info .right p {
+		font-size: 10px;
+	}
+
+	.info .right .map {
+		margin: 10px 0;
+		width: 100%;
+	}
+	/* 当院についておわり */
+
+	/* フッター */
+	#footer {
+		text-align: center;
+	}
+	
+	#footer .wrapper {
+		background-repeat: no-repeat;
+		height: 40vh;
+	}
+	
+	#footer .bottom {
+		left: 50%;
+		transform: translateX(-50%);
+		top: 35%;
+	}
+	
+	#footer .bottom .footer-nav {
+		flex-direction: column;
+		margin-bottom: 8px;
+		text-align: center;
+		
+	}
+	
+	#footer a {
+		color: #F2F2F2;
+		margin-bottom: 3px;
+	}
+	
+	#footer .footer-nav li {
+		margin-right: 0px;
+		font-size: 14px;
+		margin-top: 5px;
+	}
+	
+	#footer .sns {
+		display: flex;
+		justify-content: center;
+		margin-bottom: 28px;
+	}
+
+	#footer .sns img {
+		width: 20px;
+		height: 20px;
+	}
+
+
+	/* フッター終わり */
+	
+}
